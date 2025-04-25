@@ -1,0 +1,13 @@
+# Allow all web crawlers to access all content
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ragdoll-archers.app/sitemap.xml
+
+# Common directories/files to disallow
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?* 
